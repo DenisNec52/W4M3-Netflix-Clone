@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Roboto&display=swap');
+body {
+    background-color: rgba(20,20,20,255);
+   }
+   html {
+    scroll-behavior: smooth;
+   }
+
+.logo{
+    height: 40px;
+    width: auto;
+}
+p#navKids{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+.navUser{
+    height: 30px;
+    width: auto;
+}
+.nav-item.dropdown{
+    display: flex;
+    align-items: center;
+}
+.dropdown-menu{
+    margin-left: -150px;
+    margin-top: 30px;
+}
+form{
+    padding: 15px, 0;
+}
+.btn.btn-secondary.dropdown-toggle{
+    margin-left: 25px;
+}
+.sh{
+    padding: 15px 0px 15px 30px;
+}
+.tr h3{
+    color: white;
+    padding: 20px 0px 15px 30px;
+}
+.tr2 h3{
+    color: white;
+    padding: 20px 0px 15px 30px;
+}
+.tr3 h3{
+    color: white;
+    padding: 20px 0px 15px 30px;
+}
+img{
+    height: 140px;
+    width: 230px;
+}
+.carousel-item.active.cr{
+    display: flex;
+    justify-content: center;
+}
+.row-cols-1.row-cols-md-6.g-4 {
+    display: flex;
+}
+.tr{
+    color: white;
+}
+.tr2{
+    margin-top: 50px;
+    color: white;
+}
+.tr3{
+    margin-top: 50px;
+    color: white;
+}
+.card.bg-black {
+    transition: transform 1s;
+  }
+  
+  .card.bg-black:hover {
+    transform: scale(1.2);
+  }
+.row.row-cols-1.row-cols-sm-2.row-cols-md-5.py-5{
+    margin-top: 70px;
+}
+.btn.btn-secondary.dropdown-toggle.footer{
+    margin-left: -10px;
+}
+#ending{
+    height: auto;
+    width: 300px;
+    padding-top: 10px;
+    position: relative;
+    margin-left: -43px;
+
+}
